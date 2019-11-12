@@ -2,7 +2,7 @@
 
 ## 仅编译指定模块
 ```bash
-mavne clean compile -pl {指定模块的相对路径} -am
+mvn clean compile -pl {指定模块的相对路径} -am
 ```
 该命令只会编译指定模块、以及改模块依赖的其它模块。参数说明参考以下：
 
